@@ -1,0 +1,1774 @@
+{
+  "item": {
+    "ad": 0,
+    "word_count": 1516460,
+    "owner": 0,
+    "allow_discount": 0,
+    "ad_time": 0,
+    "click": 167102,
+    "score_count": 19,
+    "title": "步步惊婚",
+    "on_sale": true,
+    "comment_count": 0,
+    "has_ad": 0,
+    "ad_duration": 0,
+    "content": "他是都城最尊贵最神秘的男人，机关ZMI特工首脑。她是外地来京的犯罪心理学硕士，未成年人管教所心理辅导员。初次见面，他跟她流汗打假。难道他是那啥心理障碍？那她给他治？还是不治？",
+    "latest_id": 179,
+    "score": 8.84,
+    "allow_free_read": 1,
+    "toc": [
+      {
+        "price": 0,
+        "chapter_id": 0,
+        "word_count": 3098,
+        "free": true,
+        "title": "状若癫狂为哪般？"
+      },
+      {
+        "price": 0,
+        "chapter_id": 1,
+        "word_count": 2358,
+        "free": true,
+        "title": "三高大三的帅酷男人"
+      },
+      {
+        "price": 0,
+        "chapter_id": 2,
+        "word_count": 2025,
+        "free": true,
+        "title": "天大地大，不如贞操大"
+      },
+      {
+        "price": 0,
+        "chapter_id": 3,
+        "word_count": 2362,
+        "free": true,
+        "title": "救你一次，换我一日"
+      },
+      {
+        "price": 0,
+        "chapter_id": 4,
+        "word_count": 2412,
+        "free": true,
+        "title": "扯淡的生活节奏！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 5,
+        "word_count": 2697,
+        "free": true,
+        "title": "姓权的是牲口吗？！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 6,
+        "word_count": 2655,
+        "free": true,
+        "title": "神龙摆尾大绝招！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 7,
+        "word_count": 2855,
+        "free": true,
+        "title": "占小幺，跟了我吧？"
+      },
+      {
+        "price": 0,
+        "chapter_id": 8,
+        "word_count": 2487,
+        "free": true,
+        "title": "昨晚偷牛去了？"
+      },
+      {
+        "price": 0,
+        "chapter_id": 9,
+        "word_count": 2381,
+        "free": true,
+        "title": "早点儿立遗嘱吧！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 10,
+        "word_count": 2594,
+        "free": true,
+        "title": "半路杀出的权程金"
+      },
+      {
+        "price": 0,
+        "chapter_id": 11,
+        "word_count": 2715,
+        "free": true,
+        "title": "小冤家！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 12,
+        "word_count": 2568,
+        "free": true,
+        "title": "喊了，真爽！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 13,
+        "word_count": 2651,
+        "free": true,
+        "title": "不是曾经见过你？"
+      },
+      {
+        "price": 0,
+        "chapter_id": 14,
+        "word_count": 2437,
+        "free": true,
+        "title": "公务员考试"
+      },
+      {
+        "price": 0,
+        "chapter_id": 15,
+        "word_count": 2549,
+        "free": true,
+        "title": "我要用你！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 16,
+        "word_count": 2584,
+        "free": true,
+        "title": "炸酱面与法式大餐"
+      },
+      {
+        "price": 0,
+        "chapter_id": 17,
+        "word_count": 2855,
+        "free": true,
+        "title": "爷有奖励给你"
+      },
+      {
+        "price": 0,
+        "chapter_id": 18,
+        "word_count": 2736,
+        "free": true,
+        "title": "你连个屁都不如！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 19,
+        "word_count": 2607,
+        "free": true,
+        "title": "谁欠谁的债！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 20,
+        "word_count": 2535,
+        "free": true,
+        "title": "太不要脸了！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 21,
+        "word_count": 2585,
+        "free": true,
+        "title": "阴晴不定，故障在哪？！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 22,
+        "word_count": 2634,
+        "free": true,
+        "title": "生气的时候最撩人！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 23,
+        "word_count": 2385,
+        "free": true,
+        "title": "大秀恩爱唱双簧！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 24,
+        "word_count": 2741,
+        "free": true,
+        "title": "浓浓的缠蜷，骚包的心！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 25,
+        "word_count": 2733,
+        "free": true,
+        "title": "超级无敌霹雳帅翻天！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 26,
+        "word_count": 3008,
+        "free": true,
+        "title": "小少爷喊妈！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 27,
+        "word_count": 2533,
+        "free": true,
+        "title": "占小幺，嫁给我！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 28,
+        "word_count": 2245,
+        "free": true,
+        "title": "童言无忌啊"
+      },
+      {
+        "price": 0,
+        "chapter_id": 29,
+        "word_count": 2444,
+        "free": true,
+        "title": "暧昧的抓捕！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 30,
+        "word_count": 2071,
+        "free": true,
+        "title": "到底谁玩弄谁？"
+      },
+      {
+        "price": 0,
+        "chapter_id": 31,
+        "word_count": 2786,
+        "free": true,
+        "title": "闹掰！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 32,
+        "word_count": 2379,
+        "free": true,
+        "title": "急转直下！"
+      },
+      {
+        "price": 0,
+        "chapter_id": 33,
+        "word_count": 2625,
+        "free": true,
+        "title": "荡漾你我"
+      },
+      {
+        "price": 0,
+        "chapter_id": 34,
+        "word_count": 18624,
+        "free": true,
+        "title": "戳神四爷"
+      },
+      {
+        "price": 0,
+        "chapter_id": 35,
+        "word_count": 10436,
+        "free": true,
+        "title": "酒精使人醉！"
+      },
+      {
+        "price": 55,
+        "chapter_id": 36,
+        "word_count": 11170,
+        "title": "权家太子爷的新媳妇儿"
+      },
+      {
+        "price": 57,
+        "chapter_id": 37,
+        "word_count": 11431,
+        "title": "雨中"
+      },
+      {
+        "price": 57,
+        "chapter_id": 38,
+        "word_count": 11533,
+        "title": "发烧了！"
+      },
+      {
+        "price": 52,
+        "chapter_id": 39,
+        "word_count": 10464,
+        "title": "权四爷逼嫁！"
+      },
+      {
+        "price": 52,
+        "chapter_id": 40,
+        "word_count": 10444,
+        "title": "暴风雨前！"
+      },
+      {
+        "price": 56,
+        "chapter_id": 41,
+        "word_count": 11209,
+        "title": "晚宴上的节奏！"
+      },
+      {
+        "price": 53,
+        "chapter_id": 42,
+        "word_count": 10678,
+        "title": "收拾渣女！"
+      },
+      {
+        "price": 62,
+        "chapter_id": 43,
+        "word_count": 12492,
+        "title": "人心不足蛇吞象！"
+      },
+      {
+        "price": 54,
+        "chapter_id": 44,
+        "word_count": 10803,
+        "title": "你就是十三的亲妈"
+      },
+      {
+        "price": 57,
+        "chapter_id": 45,
+        "word_count": 11450,
+        "title": "占小幺的婚前条约！"
+      },
+      {
+        "price": 37,
+        "chapter_id": 46,
+        "word_count": 7527,
+        "title": "男人间的硝烟"
+      },
+      {
+        "price": 30,
+        "chapter_id": 47,
+        "word_count": 6119,
+        "title": "渣四与小幺！"
+      },
+      {
+        "price": 55,
+        "chapter_id": 48,
+        "word_count": 11176,
+        "title": "一步步探索！"
+      },
+      {
+        "price": 57,
+        "chapter_id": 49,
+        "word_count": 11441,
+        "title": "女为情死"
+      },
+      {
+        "price": 58,
+        "chapter_id": 50,
+        "word_count": 11698,
+        "title": "依兰婚纱！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 51,
+        "word_count": 8992,
+        "title": "婚礼"
+      },
+      {
+        "price": 61,
+        "chapter_id": 52,
+        "word_count": 12210,
+        "title": "婚事"
+      },
+      {
+        "price": 57,
+        "chapter_id": 53,
+        "word_count": 11436,
+        "title": "孙子是怎样练成的？"
+      },
+      {
+        "price": 53,
+        "chapter_id": 54,
+        "word_count": 10714,
+        "title": "不忍直视"
+      },
+      {
+        "price": 57,
+        "chapter_id": 55,
+        "word_count": 11596,
+        "title": "占小幺逆袭"
+      },
+      {
+        "price": 49,
+        "chapter_id": 56,
+        "word_count": 9940,
+        "title": "狭路相逢，智者胜！"
+      },
+      {
+        "price": 52,
+        "chapter_id": 57,
+        "word_count": 10593,
+        "title": "女人的战争！"
+      },
+      {
+        "price": 58,
+        "chapter_id": 58,
+        "word_count": 11731,
+        "title": "奸夫浮出水面"
+      },
+      {
+        "price": 58,
+        "chapter_id": 59,
+        "word_count": 11729,
+        "title": "爆笑一日"
+      },
+      {
+        "price": 49,
+        "chapter_id": 60,
+        "word_count": 9853,
+        "title": "为什么不吻她"
+      },
+      {
+        "price": 52,
+        "chapter_id": 61,
+        "word_count": 10580,
+        "title": "当姑奶奶伺候"
+      },
+      {
+        "price": 41,
+        "chapter_id": 62,
+        "word_count": 8284,
+        "title": "甜腻腻的蜜月之旅！"
+      },
+      {
+        "price": 48,
+        "chapter_id": 63,
+        "word_count": 9773,
+        "title": "蜜糖的日子，总是甜！"
+      },
+      {
+        "price": 45,
+        "chapter_id": 64,
+        "word_count": 9003,
+        "title": "美好婚姻的开始"
+      },
+      {
+        "price": 64,
+        "chapter_id": 65,
+        "word_count": 12886,
+        "title": "表明心迹，互相喜欢"
+      },
+      {
+        "price": 58,
+        "chapter_id": 66,
+        "word_count": 11737,
+        "title": "封闭负向幻觉"
+      },
+      {
+        "price": 48,
+        "chapter_id": 67,
+        "word_count": 9622,
+        "title": "三天又三天！"
+      },
+      {
+        "price": 40,
+        "chapter_id": 68,
+        "word_count": 8102,
+        "title": "大变活人！"
+      },
+      {
+        "price": 41,
+        "chapter_id": 69,
+        "word_count": 8342,
+        "title": "养生良药与心灵鸡汤"
+      },
+      {
+        "price": 56,
+        "chapter_id": 70,
+        "word_count": 11358,
+        "title": "高潮的序幕拉开！"
+      },
+      {
+        "price": 32,
+        "chapter_id": 71,
+        "word_count": 6427,
+        "title": "精彩的表演"
+      },
+      {
+        "price": 62,
+        "chapter_id": 72,
+        "word_count": 12583,
+        "title": "相依，深情拥吻！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 73,
+        "word_count": 8970,
+        "title": "DNA鉴定结果"
+      },
+      {
+        "price": 27,
+        "chapter_id": 74,
+        "word_count": 5455,
+        "title": "底线"
+      },
+      {
+        "price": 57,
+        "chapter_id": 75,
+        "word_count": 11416,
+        "title": "错综复杂！"
+      },
+      {
+        "price": 60,
+        "chapter_id": 76,
+        "word_count": 12107,
+        "title": "诡异的催眠，极大信息量！"
+      },
+      {
+        "price": 46,
+        "chapter_id": 77,
+        "word_count": 9262,
+        "title": "有一种野兽，他长得像人"
+      },
+      {
+        "price": 45,
+        "chapter_id": 78,
+        "word_count": 9084,
+        "title": "欢乐一家亲！"
+      },
+      {
+        "price": 41,
+        "chapter_id": 79,
+        "word_count": 8227,
+        "title": "脑残片，又断货了！"
+      },
+      {
+        "price": 53,
+        "chapter_id": 80,
+        "word_count": 10690,
+        "title": "鬼中鬼！谋中谋！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 81,
+        "word_count": 8813,
+        "title": "生日party"
+      },
+      {
+        "price": 44,
+        "chapter_id": 82,
+        "word_count": 8967,
+        "title": "煽情，完美，一吻倾城"
+      },
+      {
+        "price": 47,
+        "chapter_id": 83,
+        "word_count": 9474,
+        "title": "需要支持，可以找我"
+      },
+      {
+        "price": 39,
+        "chapter_id": 84,
+        "word_count": 7901,
+        "title": "学雷锋，帮洗澡！"
+      },
+      {
+        "price": 35,
+        "chapter_id": 85,
+        "word_count": 7102,
+        "title": "共振、颤抖、然后心酸"
+      },
+      {
+        "price": 43,
+        "chapter_id": 86,
+        "word_count": 8793,
+        "title": "道是无情却有情！"
+      },
+      {
+        "price": 39,
+        "chapter_id": 87,
+        "word_count": 7888,
+        "title": "对峙"
+      },
+      {
+        "price": 34,
+        "chapter_id": 88,
+        "word_count": 6984,
+        "title": "嫉妒让人狂"
+      },
+      {
+        "price": 28,
+        "chapter_id": 89,
+        "word_count": 5670,
+        "title": "爱之深，恨之切"
+      },
+      {
+        "price": 39,
+        "chapter_id": 90,
+        "word_count": 7987,
+        "title": "不发疯，怎么成功！"
+      },
+      {
+        "price": 50,
+        "chapter_id": 91,
+        "word_count": 10145,
+        "title": "一寸爱情一寸爱"
+      },
+      {
+        "price": 35,
+        "chapter_id": 92,
+        "word_count": 7040,
+        "title": "她生过小孩儿了！！"
+      },
+      {
+        "price": 54,
+        "chapter_id": 93,
+        "word_count": 10912,
+        "title": "得之卿卿，结发一生"
+      },
+      {
+        "price": 53,
+        "chapter_id": 94,
+        "word_count": 10720,
+        "title": "告诉她六年前真相！"
+      },
+      {
+        "price": 32,
+        "chapter_id": 95,
+        "word_count": 6429,
+        "title": "是挺干净的"
+      },
+      {
+        "price": 54,
+        "chapter_id": 96,
+        "word_count": 10860,
+        "title": "良心建议"
+      },
+      {
+        "price": 44,
+        "chapter_id": 97,
+        "word_count": 8977,
+        "title": "淬焰如豹"
+      },
+      {
+        "price": 49,
+        "chapter_id": 98,
+        "word_count": 9955,
+        "title": "一步是棋，步步都是棋"
+      },
+      {
+        "price": 45,
+        "chapter_id": 99,
+        "word_count": 9027,
+        "title": "一个比一个更邪恶"
+      },
+      {
+        "price": 44,
+        "chapter_id": 100,
+        "word_count": 8806,
+        "title": "半夜捉小贼！"
+      },
+      {
+        "price": 48,
+        "chapter_id": 101,
+        "word_count": 9620,
+        "title": "贼销了魂儿！"
+      },
+      {
+        "price": 58,
+        "chapter_id": 102,
+        "word_count": 11635,
+        "title": "故事大转折！"
+      },
+      {
+        "price": 47,
+        "chapter_id": 103,
+        "word_count": 9549,
+        "title": "精彩姐妹斗法！"
+      },
+      {
+        "price": 45,
+        "chapter_id": 104,
+        "word_count": 9064,
+        "title": "贤妻良母！"
+      },
+      {
+        "price": 18,
+        "chapter_id": 105,
+        "word_count": 3635,
+        "title": "女人多了都是戏！"
+      },
+      {
+        "price": 47,
+        "chapter_id": 106,
+        "word_count": 9576,
+        "title": "心里的女人！"
+      },
+      {
+        "price": 31,
+        "chapter_id": 107,
+        "word_count": 6347,
+        "title": "乱花渐欲迷人眼！"
+      },
+      {
+        "price": 47,
+        "chapter_id": 108,
+        "word_count": 9462,
+        "title": "静静燃烧"
+      },
+      {
+        "price": 52,
+        "chapter_id": 109,
+        "word_count": 10479,
+        "title": "搞什么飞机啊？"
+      },
+      {
+        "price": 50,
+        "chapter_id": 110,
+        "word_count": 10072,
+        "title": "一秒决定命运！"
+      },
+      {
+        "price": 37,
+        "chapter_id": 111,
+        "word_count": 7432,
+        "title": "故事中的故事！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 112,
+        "word_count": 8684,
+        "title": "明媚的忧伤！"
+      },
+      {
+        "price": 45,
+        "chapter_id": 113,
+        "word_count": 9059,
+        "title": "醉掉的锦山墅！"
+      },
+      {
+        "price": 48,
+        "chapter_id": 114,
+        "word_count": 9657,
+        "title": "贱人，都该死！"
+      },
+      {
+        "price": 45,
+        "chapter_id": 115,
+        "word_count": 9197,
+        "title": "嫉妒妄想症"
+      },
+      {
+        "price": 26,
+        "chapter_id": 116,
+        "word_count": 5380,
+        "title": "小笨蛋！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 117,
+        "word_count": 8686,
+        "title": "嗨起来了喂！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 118,
+        "word_count": 8637,
+        "title": "目光的焦点"
+      },
+      {
+        "price": 27,
+        "chapter_id": 119,
+        "word_count": 5459,
+        "title": "一家三口"
+      },
+      {
+        "price": 38,
+        "chapter_id": 120,
+        "word_count": 7735,
+        "title": "唐瑜自杀！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 121,
+        "word_count": 8747,
+        "title": "你的女人，她爱的是我！"
+      },
+      {
+        "price": 35,
+        "chapter_id": 122,
+        "word_count": 7036,
+        "title": "搞笑的一大一小"
+      },
+      {
+        "price": 40,
+        "chapter_id": 123,
+        "word_count": 8024,
+        "title": "血腥味儿很浓！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 124,
+        "word_count": 8956,
+        "title": "消灭"
+      },
+      {
+        "price": 48,
+        "chapter_id": 125,
+        "word_count": 9627,
+        "title": "真怀上了！！"
+      },
+      {
+        "price": 27,
+        "chapter_id": 126,
+        "word_count": 5462,
+        "title": "世间，唯情最苦！"
+      },
+      {
+        "price": 56,
+        "chapter_id": 127,
+        "word_count": 11379,
+        "title": "背上的幸福！"
+      },
+      {
+        "price": 57,
+        "chapter_id": 128,
+        "word_count": 11408,
+        "title": "花朵开在哥哥的心窝"
+      },
+      {
+        "price": 43,
+        "chapter_id": 129,
+        "word_count": 8715,
+        "title": "听墙里的秘密！"
+      },
+      {
+        "price": 34,
+        "chapter_id": 130,
+        "word_count": 6993,
+        "title": "一只纯天然的妖精！"
+      },
+      {
+        "price": 40,
+        "chapter_id": 131,
+        "word_count": 8065,
+        "title": "蝙蝠是谁？！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 132,
+        "word_count": 8996,
+        "title": "情感锤炼！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 133,
+        "word_count": 8855,
+        "title": "到底谁在装逼？"
+      },
+      {
+        "price": 35,
+        "chapter_id": 134,
+        "word_count": 7030,
+        "title": "峰回路又转！"
+      },
+      {
+        "price": 46,
+        "chapter_id": 135,
+        "word_count": 9287,
+        "title": "大戏拉开了"
+      },
+      {
+        "price": 40,
+        "chapter_id": 136,
+        "word_count": 8167,
+        "title": "翻手为云，覆手为雨的权四爷！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 137,
+        "word_count": 8747,
+        "title": "别哭，都是老公不好！"
+      },
+      {
+        "price": 35,
+        "chapter_id": 138,
+        "word_count": 7060,
+        "title": "无情有溅招儿？"
+      },
+      {
+        "price": 49,
+        "chapter_id": 139,
+        "word_count": 9805,
+        "title": "想你了！"
+      },
+      {
+        "price": 35,
+        "chapter_id": 140,
+        "word_count": 7127,
+        "title": "为什么要闯红灯"
+      },
+      {
+        "price": 39,
+        "chapter_id": 141,
+        "word_count": 7944,
+        "title": "桃花儿要开了？"
+      },
+      {
+        "price": 48,
+        "chapter_id": 142,
+        "word_count": 9718,
+        "title": "欠的债，都要讨回！"
+      },
+      {
+        "price": 40,
+        "chapter_id": 143,
+        "word_count": 8014,
+        "title": "她是我女朋友！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 144,
+        "word_count": 8878,
+        "title": "都是月亮惹的祸！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 145,
+        "word_count": 8764,
+        "title": "大晚上的做什么？"
+      },
+      {
+        "price": 38,
+        "chapter_id": 146,
+        "word_count": 7770,
+        "title": "喜事一桩桩！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 147,
+        "word_count": 8709,
+        "title": "桃花眼与B超单！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 148,
+        "word_count": 8903,
+        "title": "你爸爸他还活着！"
+      },
+      {
+        "price": 48,
+        "chapter_id": 149,
+        "word_count": 9605,
+        "title": "要死要活要恩爱！"
+      },
+      {
+        "price": 44,
+        "chapter_id": 150,
+        "word_count": 8952,
+        "title": "好一声儿‘姐姐’哟！"
+      },
+      {
+        "price": 48,
+        "chapter_id": 151,
+        "word_count": 9618,
+        "title": "厨房经典造型"
+      },
+      {
+        "price": 48,
+        "chapter_id": 152,
+        "word_count": 9756,
+        "title": "锲合！"
+      },
+      {
+        "price": 52,
+        "chapter_id": 153,
+        "word_count": 10401,
+        "title": "恶有恶报，平心戒燥！"
+      },
+      {
+        "price": 52,
+        "chapter_id": 154,
+        "word_count": 10476,
+        "title": "湿了"
+      },
+      {
+        "price": 45,
+        "chapter_id": 155,
+        "word_count": 9084,
+        "title": "调逗一下你的神经！"
+      },
+      {
+        "price": 52,
+        "chapter_id": 156,
+        "word_count": 10526,
+        "title": "树倒猢狲散！"
+      },
+      {
+        "price": 47,
+        "chapter_id": 157,
+        "word_count": 9564,
+        "title": "杀伐决断，毫不手软！"
+      },
+      {
+        "price": 46,
+        "chapter_id": 158,
+        "word_count": 9200,
+        "title": "大战在即！"
+      },
+      {
+        "price": 40,
+        "chapter_id": 159,
+        "word_count": 8173,
+        "title": "逼入绝境！"
+      },
+      {
+        "price": 48,
+        "chapter_id": 160,
+        "word_count": 9785,
+        "title": "善良的坏蛋！"
+      },
+      {
+        "price": 43,
+        "chapter_id": 161,
+        "word_count": 8752,
+        "title": "得失两知心"
+      },
+      {
+        "price": 48,
+        "chapter_id": 162,
+        "word_count": 9777,
+        "title": "糖衣炮弹"
+      },
+      {
+        "price": 42,
+        "chapter_id": 163,
+        "word_count": 8597,
+        "title": "不会再失去"
+      },
+      {
+        "price": 42,
+        "chapter_id": 164,
+        "word_count": 8403,
+        "title": "超极纯洁终身成就奖！"
+      },
+      {
+        "price": 38,
+        "chapter_id": 165,
+        "word_count": 7709,
+        "title": "怎么办？要坏事儿？"
+      },
+      {
+        "price": 41,
+        "chapter_id": 166,
+        "word_count": 8211,
+        "title": "犯二和魔怔"
+      },
+      {
+        "price": 43,
+        "chapter_id": 167,
+        "word_count": 8689,
+        "title": "浊世绝恋！"
+      },
+      {
+        "price": 50,
+        "chapter_id": 168,
+        "word_count": 10057,
+        "title": "一个傀儡"
+      },
+      {
+        "price": 38,
+        "chapter_id": 169,
+        "word_count": 7729,
+        "title": "真乖！"
+      },
+      {
+        "price": 39,
+        "chapter_id": 170,
+        "word_count": 7853,
+        "title": "姐夫出事儿！"
+      },
+      {
+        "price": 45,
+        "chapter_id": 171,
+        "word_count": 9073,
+        "title": "一定精彩。"
+      },
+      {
+        "price": 58,
+        "chapter_id": 172,
+        "word_count": 11659,
+        "title": "无法抵挡的爱"
+      },
+      {
+        "price": 38,
+        "chapter_id": 173,
+        "word_count": 7751,
+        "title": "都护媳妇儿！"
+      },
+      {
+        "price": 49,
+        "chapter_id": 174,
+        "word_count": 9870,
+        "title": "温暖！温暖！"
+      },
+      {
+        "price": 47,
+        "chapter_id": 175,
+        "word_count": 9408,
+        "title": "蝴蝶飞起来了！"
+      },
+      {
+        "price": 47,
+        "chapter_id": 176,
+        "word_count": 9435,
+        "title": "艺术化犯罪"
+      },
+      {
+        "price": 145,
+        "chapter_id": 177,
+        "word_count": 29170,
+        "title": "事情已经明摆在面前"
+      },
+      {
+        "price": 130,
+        "chapter_id": 178,
+        "word_count": 26103,
+        "title": "值得"
+      },
+      {
+        "price": 221,
+        "chapter_id": 179,
+        "word_count": 44346,
+        "title": "完美大结局"
+      }
+    ],
+    "rights_id": 10039,
+    "channel": [
+      2
+    ],
+    "updated": 1438678603,
+    "finish": true,
+    "tags": [
+      "步步惊婚",
+      "现代言情",
+      "都市言情",
+      "都市生活"
+    ],
+    "started": 1438633862,
+    "price": 5,
+    "chapter_count": 180,
+    "authors": "姒锦",
+    "level": 0,
+    "categories": [
+      {
+        "category_id": 100000,
+        "label": "现代言情"
+      },
+      {
+        "category_id": 100100,
+        "label": "都市言情"
+      },
+      {
+        "category_id": 18000000,
+        "label": "现代言情"
+      },
+      {
+        "category_id": 18000100,
+        "label": "都市生活"
+      }
+    ],
+    "created": 1438678472,
+    "rights": "潇湘书院",
+    "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p01Km61xV2b8/n24Wqb5GKH6poj.jpg",
+    "summary": "他是都城最尊贵最神秘的男人，机关ZMI特工首脑。她是外地来京的犯罪心理学硕士，未成年人管教所心理辅导...",
+    "fiction_id": 308725,
+    "outer_id": "55bfcf8750e3a43a08c567ff",
+    "latest": "完美大结局"
+  },
+  "result": 0,
+  "related": [
+    {
+      "ad": 0,
+      "word_count": 658160,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "click": 1390,
+      "score_count": 1,
+      "title": "穿越之民国草台班",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 154,
+      "score": 8,
+      "allow_free_read": 1,
+      "rights_id": 20004,
+      "channel": [
+        2
+      ],
+      "updated": 1479262108,
+      "finish": false,
+      "tags": [
+        "原创",
+        "言情",
+        "近代现代",
+        "爱情",
+        "现代言情",
+        "都市言情",
+        "都市生活"
+      ],
+      "price": 3,
+      "chapter_count": 155,
+      "authors": "林果果",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "晋江文学",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p01k6WKVmp1Y/oIbG2Uv3N5QNIL.jpg",
+      "summary": "两个遭遇车祸的小COSER，双双穿越到了民国。\n一睁眼，都躺在医院里，一个变成千金大小姐，骄纵跋扈，...",
+      "fiction_id": 33734,
+      "outer_id": "1806452",
+      "latest": "第 155 章"
+    },
+    {
+      "ad": 0,
+      "word_count": 2644438,
+      "owner": 0,
+      "allow_discount": false,
+      "ad_time": 0,
+      "click": 171252,
+      "score_count": 3,
+      "title": "凤舞九天：桂枝香",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 1012,
+      "score": 6,
+      "allow_free_read": 1,
+      "rights_id": 20002,
+      "channel": [
+        2
+      ],
+      "updated": 1479220317,
+      "finish": false,
+      "tags": [
+        "言情",
+        "现代言情",
+        "都市言情",
+        "现代言情",
+        "都市生活"
+      ],
+      "price": 3,
+      "chapter_count": 1042,
+      "authors": "张栗菲",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "红袖",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p0164FVXcI6o/p3TigVguZwaLqo.jpg",
+      "summary": "青春本不悲伤，却被我们演绎得如此凄凉。\n 她，明倚云，是大周朝大将军的独生女儿，掌上明珠，喜欢自己的...",
+      "fiction_id": 37414,
+      "outer_id": "14457",
+      "latest": "一千九十三、飞船的智能程序"
+    },
+    {
+      "ad": 0,
+      "word_count": 241709,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "ad_duration": 0,
+      "score_count": 0,
+      "title": "女神，求包养[古穿今]",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "latest_id": 95,
+      "score": 0,
+      "allow_free_read": 1,
+      "rights_id": 20004,
+      "channel": [
+        2
+      ],
+      "updated": 1482372887,
+      "finish": true,
+      "tags": [
+        "原创",
+        "言情",
+        "近代现代",
+        "爱情",
+        "现代言情",
+        "都市言情",
+        "都市生活"
+      ],
+      "price": 3,
+      "chapter_count": 96,
+      "authors": "叶棠",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "晋江文学",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01iWrbd11gp/rtOkhhU9XwNNaO.jpg",
+      "summary": "文案\n女明星姜颜在拍戏时捡了个助理回来。\n虽说这个助理不是这个时代的人吧，可胜在颜值不错，身材也够好...",
+      "fiction_id": 353207,
+      "outer_id": "585b338850e3a429a193c14d",
+      "latest": "chapter·96"
+    },
+    {
+      "ad": 0,
+      "word_count": 445153,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "click": 9951,
+      "score_count": 2,
+      "title": "仙家猫妖初养成",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 215,
+      "score": 9,
+      "allow_free_read": 1,
+      "rights_id": 10080,
+      "channel": [
+        2
+      ],
+      "updated": 1475346821,
+      "finish": false,
+      "tags": [
+        "异国情缘",
+        "异族恋情",
+        "现代言情",
+        "玄幻言情"
+      ],
+      "price": 5,
+      "chapter_count": 216,
+      "authors": "陪你看烟火",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100400,
+          "label": "异国情缘"
+        },
+        {
+          "category_id": 15000000,
+          "label": "玄幻言情"
+        },
+        {
+          "category_id": 15000400,
+          "label": "异族恋情"
+        }
+      ],
+      "rights": "阅文集团旗下云起书院",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01EHR9ECgqD/2zOUtKcg8HCckG.jpg",
+      "summary": "一个是人间捉妖师，温润如玉；一个是九重天阙神只，清冷孤傲；而她却仅是一只涉世不深的猫妖。三人行，谁才...",
+      "fiction_id": 277748,
+      "outer_id": "22164107000437302",
+      "latest": "第215章 那些承诺"
+    },
+    {
+      "ad": 0,
+      "word_count": 888735,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "click": 1449,
+      "score_count": 0,
+      "title": "都市之梦神大涅槃",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 280,
+      "score": 0,
+      "allow_free_read": 1,
+      "rights_id": 10080,
+      "channel": [
+        1
+      ],
+      "updated": 1479197588,
+      "finish": false,
+      "tags": [
+        "莫凡",
+        "陆筱蓉",
+        "沈太安",
+        "现代言情",
+        "白领职场",
+        "职场",
+        "商战职场"
+      ],
+      "price": 5,
+      "chapter_count": 281,
+      "authors": "剑道尘心",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100300,
+          "label": "白领职场"
+        },
+        {
+          "category_id": 13000000,
+          "label": "职场"
+        },
+        {
+          "category_id": 13000300,
+          "label": "商战职场"
+        }
+      ],
+      "rights": "阅文集团旗下创世中文网",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ZpKC2ZPSa/NH0XMekp1Lfiuv.jpg",
+      "summary": "他是一个职场菜鸟，做着一份不适合的工作，拿着微薄的薪水，有一点宅，有一点闷骚。\r\n然而他的脑海中，却还...",
+      "fiction_id": 283965,
+      "outer_id": "21944011000888202",
+      "latest": "第37章 【管理老板】"
+    },
+    {
+      "ad": 0,
+      "word_count": 748733,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "ad_duration": 0,
+      "score_count": 0,
+      "title": "我做学霸那些年[快穿]",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "latest_id": 237,
+      "score": 0,
+      "allow_free_read": 1,
+      "rights_id": 20004,
+      "channel": [
+        2
+      ],
+      "updated": 1485023460,
+      "finish": false,
+      "tags": [
+        "原创",
+        "言情",
+        "近代现代",
+        "爱情",
+        "现代言情",
+        "都市言情",
+        "都市生活"
+      ],
+      "price": 3,
+      "chapter_count": 237,
+      "authors": "浅洛洳雪",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "晋江文学",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ErZziB9if/SoNJDRXetH6Cmp.jpg",
+      "summary": "任苒是个学霸，足以让男同胞自惭形秽那种。\n在她的认知里，若是有什么她做不到的，那必然是她学识不够。\n...",
+      "fiction_id": 351328,
+      "outer_id": "2800849",
+      "latest": "末世研究员（十六）"
+    },
+    {
+      "ad": 0,
+      "word_count": 191027,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "click": 12644,
+      "score_count": 4,
+      "title": "穗穗平安",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 64,
+      "score": 8,
+      "allow_free_read": 1,
+      "rights_id": 20004,
+      "channel": [
+        2
+      ],
+      "updated": 1473901882,
+      "finish": false,
+      "tags": [
+        "原创",
+        "言情",
+        "近代现代",
+        "爱情",
+        "现代言情",
+        "都市言情",
+        "都市生活"
+      ],
+      "price": 3,
+      "chapter_count": 65,
+      "authors": "陆路鹿",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "晋江文学",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01yjSoZtlLb/oCZKE4WJWb2Jzp.jpg",
+      "summary": "裴穗这辈子对自己只有一个要求：\n顶着这个引人遐想的名字，\n在这个世界清新脱俗地活下去。\n直到有一天—...",
+      "fiction_id": 320764,
+      "outer_id": "2626562",
+      "latest": "Chapter65"
+    },
+    {
+      "ad": 0,
+      "word_count": 1045721,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "click": 13837,
+      "score_count": 13,
+      "title": "还你六十年",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 262,
+      "score": 7.23,
+      "allow_free_read": 1,
+      "rights_id": 20004,
+      "channel": [
+        2
+      ],
+      "updated": 1479863465,
+      "finish": true,
+      "tags": [
+        "原创",
+        "言情",
+        "幻想未来",
+        "爱情",
+        "现代言情",
+        "都市言情",
+        "都市生活"
+      ],
+      "price": 3,
+      "chapter_count": 263,
+      "authors": "三水小草",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "晋江文学",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01zd3R3MpyP/HhSj0zx1wp0u69.jpg",
+      "summary": "七十六岁的传奇老人\n十六岁的失忆少女\n时间在她身上回溯了六十年。\n恰是梦想的起点。\n剧透版文案（？）...",
+      "fiction_id": 321803,
+      "outer_id": "571de75150e3a450d164b149",
+      "latest": "战争（正文完结）"
+    },
+    {
+      "ad": 0,
+      "word_count": 260682,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "click": 11479,
+      "score_count": 2,
+      "title": "当红",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 74,
+      "score": 8,
+      "allow_free_read": 1,
+      "rights_id": 20004,
+      "channel": [
+        2
+      ],
+      "updated": 1470964314,
+      "finish": true,
+      "tags": [
+        "都市言情",
+        "现代言情",
+        "近代现代",
+        "爱情",
+        "言情"
+      ],
+      "price": 3,
+      "chapter_count": 76,
+      "authors": "妙妙周",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "晋江文学",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p01RjlCrpiTj/YtyA36pNKVlOKl.jpg",
+      "summary": "冷静理智当红女明星遇上强大包容温柔总裁男。\n代言，拍戏，商演，红毯以及圈内人的撕逼大战全部让当红花旦...",
+      "fiction_id": 254338,
+      "outer_id": "5473f1dd0ea497329fed8786",
+      "latest": "8.11日  结局！！！作者有话说里有6章"
+    },
+    {
+      "ad": 0,
+      "word_count": 216517,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "ad_duration": 0,
+      "score_count": 0,
+      "title": "纠缠",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "latest_id": 78,
+      "score": 0,
+      "allow_free_read": 1,
+      "rights_id": 20004,
+      "channel": [
+        2
+      ],
+      "updated": 1482372570,
+      "finish": true,
+      "tags": [
+        "原创",
+        "言情",
+        "近代现代",
+        "爱情",
+        "现代言情",
+        "都市言情",
+        "都市生活"
+      ],
+      "price": 3,
+      "chapter_count": 79,
+      "authors": "木瓜很甜",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "晋江文学",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01fnDeg6zcC/JGnmjpuTxvoArA.jpg",
+      "summary": "《纠缠》\n秦肆终于一了心愿，把赵舒于追到了手\n虽然背上“撬墙角”的恶名\n但他不在乎，他能撬得动，说明...",
+      "fiction_id": 353182,
+      "outer_id": "585b333650e3a429a193c0e5",
+      "latest": "番外：包子"
+    }
+  ],
+  "v": 0
+}

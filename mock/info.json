@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "ad": 0,
+      "word_count": 1516460,
+      "owner": 0,
+      "allow_discount": 0,
+      "ad_time": 0,
+      "click": 167102,
+      "score_count": 19,
+      "title": "步步惊婚",
+      "on_sale": true,
+      "comment_count": 0,
+      "has_ad": 0,
+      "ad_duration": 0,
+      "latest_id": 179,
+      "score": 8.84,
+      "allow_free_read": 1,
+      "rights_id": 10039,
+      "channel": [
+        2
+      ],
+      "updated": 1438678603,
+      "finish": true,
+      "tags": [
+        "步步惊婚",
+        "现代言情",
+        "都市言情",
+        "都市生活"
+      ],
+      "price": 5,
+      "chapter_count": 180,
+      "authors": "姒锦",
+      "categories": [
+        {
+          "category_id": 100000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 100100,
+          "label": "都市言情"
+        },
+        {
+          "category_id": 18000000,
+          "label": "现代言情"
+        },
+        {
+          "category_id": 18000100,
+          "label": "都市生活"
+        }
+      ],
+      "rights": "潇湘书院",
+      "level": 0,
+      "cover": "http://cover.read.duokan.com/mfsv2/download/s010/p01Km61xV2b8/n24Wqb5GKH6poj.jpg",
+      "summary": "他是都城最尊贵最神秘的男人，机关ZMI特工首脑。她是外地来京的犯罪心理学硕士，未成年人管教所心理辅导...",
+      "fiction_id": 308725,
+      "outer_id": "55bfcf8750e3a43a08c567ff",
+      "latest": "完美大结局"
+    }
+  ],
+  "result": 0
+}
