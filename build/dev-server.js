@@ -1,4 +1,5 @@
 var path = require('path')
+var querystring = require('querystring')
 var express = require('express')
 var webpack = require('webpack')
 var config = require('../config')
@@ -14,6 +15,24 @@ var port = process.env.PORT || config.dev.port
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+// 定义api的路由
+var apiRoutes = express.Router()
+
+apiRoutes.get('/info', function (req, res) {
+  res.json(require('../mock/info.json'))
+})
+
+apiRoutes.get('/detail', function (req, res) {
+  res.json(require('../mock/detail.json'))
+})
+
+apiRoutes.get('/link', function (req, res) {
+  var id = req.query.chapter_id || '0'
+  res.json(require(`../mock/chapterId_${id}_jsonp.json`))
+})
+
+// 注册api路由
+app.use('/api', apiRoutes)
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
