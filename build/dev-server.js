@@ -31,6 +31,11 @@ apiRoutes.get('/link', function (req, res) {
   res.json(require(`../mock/chapterId_${id}_jsonp.json`))
 })
 
+apiRoutes.get('/data', function (req, res) {
+  var id = req.query.chapter_id || '0'
+  res.json(require(`../mock/chapterId_${id}.json`))
+})
+
 // 注册api路由
 app.use('/api', apiRoutes)
 var compiler = webpack(webpackConfig)
