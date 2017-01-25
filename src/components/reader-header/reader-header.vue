@@ -31,6 +31,8 @@
 </script>
 
 <style lang="stylus" scoped>
+  @import '../../common/stylus/minin'
+
   .reader-header
     position fixed
     top 0
@@ -52,12 +54,9 @@
       position absolute
       top 13px
       left 13px
-      width 24px
-      height 24px
-      background url(back.png) no-repeat
-      background-size 24px 24px
+      bg-img('back.png', 24px, 24px)
     &:after
-      content '\8FD4\56DE'
+      content '返回'
       position absolute
       top 0px
       left 50px
@@ -71,10 +70,8 @@
       content ''
       position absolute
       right 38px
-      width 24px
-      height 6px
-      background url(more.png) no-repeat
-      background-size 24px 6px
+      margin-top -3px
+      bg-img('more.png', 24px, 6px)
 
   .popup
     position absolute
@@ -120,18 +117,12 @@
       &:before
         content ''
         position absolute
-        width 18px
-        height 18px
         margin 16px 10px
-        background url(check.png) no-repeat
-        background-size 18px 18px
+        bg-img('check.png', 18px, 18px)
       &.check-on:before
-        background url(check_on.png) no-repeat
-        background-size 18px 18px
+        bg-img('check_on.png', 18px, 18px)
       &:after
-        content '\81ea\52a8\8d2d\4e70\4e0b\4e00\7ae0'
+        content '自动购买下一章'
         margin-left 34px
         font-size 14px
-
-
 </style>
