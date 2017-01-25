@@ -15,8 +15,8 @@
     </div>
     <div class="font-bar" v-show="fontBarShow">
       <div class="font-size">
-        <a class="font-large"></a>
-        <a class="font-small"></a>
+        <a class="font-large" @click.prevent="largeFontSize"></a>
+        <a class="font-small" @click.prevent="smallFontSize"></a>
       </div>
       <div class="font-bg">
         <a class="bg-option" v-for="obj in bgStyleObjs" :class="{'on': bgType === $index}" :style="obj" @click.prevent="changeBgType($index)"></a>
@@ -32,6 +32,7 @@
       barShow: Boolean,
       bgStyleObjs: Array,
       bgType: Number,
+      fontSize: Number,
       nightMode: Boolean
     },
     methods: {
@@ -45,6 +46,18 @@
       changeBgType (type) {
         this.bgType = type
         storageSetter('background-type', this.bgType)
+      },
+      largeFontSize () {
+        if (this.fontSize < 22) {
+          this.fontSize++
+          storageSetter('font-size', this.fontSize)
+        }
+      },
+      smallFontSize () {
+        if (this.fontSize > 12) {
+          this.fontSize--
+          storageSetter('font-size', this.fontSize)
+        }
       }
     },
     events: {
@@ -165,6 +178,7 @@
     margin 0 5px
     font-size 13px
     line-height 16px
+    cursor pointer
   .font-large:before
     content '大'
   .font-small:before

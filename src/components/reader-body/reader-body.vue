@@ -1,6 +1,6 @@
 <template>
   <div class="reader-body" @scroll="bodyScroll">
-    <ul class="chapters">
+    <ul class="chapters" :style="{fontSize: fontSize + 'px'}">
       <li class="chapter" v-for="chapter in chapters" track-by="$index">
         <h1 class="title">{{ chapter.t }}</h1>
         <p class="paragraph" v-for="paragraph in chapter.p" track-by="$index">{{ paragraph }}</p>
@@ -14,7 +14,8 @@
 
   export default {
     props: {
-      chapterId: String
+      chapterId: String,
+      fontSize: Number
     },
     methods: {
       bodyScroll () {

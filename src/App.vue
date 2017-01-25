@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <reader-header :bar-show="barShow" :book="book"></reader-header>
-    <reader-body :style="bgStyleObj" :chapter-id="chapterId" @click="toggleBar"></reader-body>
-    <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode" :bg-type.sync="bgType"></reader-footer>
+    <reader-body :style="bgStyleObj" :chapter-id="chapterId" :font-size="fontSize" @click="toggleBar"></reader-body>
+    <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode" :bg-type.sync="bgType" :font-size.sync="fontSize"></reader-footer>
   </div>
 </template>
 
@@ -55,7 +55,8 @@
           {background: '#283548', color: '#7685a2'},
           {background: '#0f1410', color: '#4e534f'}
         ],
-        bgType: 0
+        bgType: 0,
+        fontSize: 14
       }
     },
     created () {
@@ -69,6 +70,7 @@
       })
       this.nightMode = storageGetter('night-mode') === 'true'
       this.bgType = parseInt(storageGetter('background-type')) || 0
+      this.fontSize = parseInt(storageGetter('font-size')) || 14
     }
   }
 </script>
