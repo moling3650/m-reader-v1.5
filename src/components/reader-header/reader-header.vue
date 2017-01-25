@@ -1,8 +1,8 @@
 <template>
-  <div class="reader-header">
+  <div class="reader-header" v-show="barShow">
     <a class="back"></a>
-    <a class="more"></a>
-    <div class="popup">
+    <a class="more" @click.prevent="togglePopupShow"></a>
+    <div class="popup" v-show="popupShow">
       <div class="book">
         <img class="cover" :src="book.cover" :alt="book.title" />
         <h1 class="title">{{ book.title }}</h1>
@@ -17,8 +17,22 @@
   import { getApiData } from 'common/js/utils.js'
 
   export default {
+    props: {
+      barShow: Boolean
+    },
+    methods: {
+      togglePopupShow () {
+        this.popupShow = !this.popupShow
+      }
+    },
+    events: {
+      'hide-bar' () {
+        this.popupShow = false
+      }
+    },
     data () {
       return {
+        popupShow: false,
         book: {}
       }
     },

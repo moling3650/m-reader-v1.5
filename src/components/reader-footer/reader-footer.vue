@@ -1,5 +1,5 @@
 <template>
-  <div class="reader-footer">
+  <div class="reader-footer" v-show="barShow">
     <div class="footer-bar">
       <div class="top">
         <a class="item prev-chapter"></a>
@@ -8,12 +8,12 @@
       </div>
       <div class="bottom">
         <a class="item toc"></a>
-        <a class="item font"></a>
+        <a class="item font" :class="{'on': fontBarShow}" @click.prevent="toggleFontBar"></a>
         <a class="item day"></a>
         <a class="item download"></a>
       </div>
     </div>
-    <div class="font-bar">
+    <div class="font-bar" v-show="fontBarShow">
       <div class="font-size">
         <a class="font-large"></a>
         <a class="font-small"></a>
@@ -26,7 +26,26 @@
 </template>
 
 <script type="text/ecmascript-6">
-  export default {}
+  export default {
+    props: {
+      barShow: Boolean
+    },
+    methods: {
+      toggleFontBar () {
+        this.fontBarShow = !this.fontBarShow
+      }
+    },
+    events: {
+      'hide-bar' () {
+        this.fontBarShow = false
+      }
+    },
+    data () {
+      return {
+        fontBarShow: false
+      }
+    }
+  }
 </script>
 
 <style lang="stylus" scoped>

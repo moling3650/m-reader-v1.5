@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <reader-header></reader-header>
-    <reader-body :chapter-id="chapterId"></reader-body>
-    <reader-footer></reader-footer>
+    <reader-header :bar-show="barShow"></reader-header>
+    <reader-body :chapter-id="chapterId" @click="toggleBar"></reader-body>
+    <reader-footer :bar-show="barShow"></reader-footer>
   </div>
 </template>
 
@@ -18,8 +18,23 @@
       ReaderBody,
       ReaderFooter
     },
+    methods: {
+      toggleBar () {
+        this.barShow = !this.barShow
+        if (!this.barShow) {
+          this.$broadcast('hide-bar')
+        }
+      }
+    },
+    events: {
+      'reader-body-scroll' () {
+        this.$broadcast('hide-bar')
+        this.barShow = false
+      }
+    },
     data () {
       return {
+        barShow: false,
         chapterId: '0',
         chapter: {},
         bookInfo: {},

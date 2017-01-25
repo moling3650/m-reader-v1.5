@@ -1,5 +1,5 @@
 <template>
-  <div class="reader-body">
+  <div class="reader-body" @scroll="bodyScroll">
     <ul class="chapters">
       <li class="chapter" v-for="chapter in chapters" track-by="$index">
         <h1 class="title">{{ chapter.t }}</h1>
@@ -15,6 +15,11 @@
   export default {
     props: {
       chapterId: String
+    },
+    methods: {
+      bodyScroll () {
+        this.$dispatch('reader-body-scroll')
+      }
     },
     data () {
       return {
