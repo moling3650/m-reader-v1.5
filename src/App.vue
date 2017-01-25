@@ -2,7 +2,7 @@
   <div id="app">
     <reader-header :bar-show="barShow" :book="book"></reader-header>
     <reader-body :style="bgStyleObj" :chapter-id="chapterId" @click="toggleBar"></reader-body>
-    <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode"></reader-footer>
+    <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode" :bg-type.sync="bgType"></reader-footer>
   </div>
 </template>
 
@@ -23,7 +23,8 @@
     computed: {
       bgStyleObj () {
         let nightModeStyle = this.bgStyleObjs[5]
-        return this.nightMode ? nightModeStyle : this.bgStyleObjs[0]
+        let dayModeStyle = this.bgStyleObjs[this.bgType]
+        return this.nightMode ? nightModeStyle : dayModeStyle
       }
     },
     methods: {
@@ -43,7 +44,7 @@
     data () {
       return {
         barShow: false,
-        nightMode: true,
+        nightMode: false,
         chapterId: '0',
         book: {},
         bgStyleObjs: [
@@ -53,7 +54,8 @@
           {background: '#cdefce'},
           {background: '#283548', color: '#7685a2'},
           {background: '#0f1410', color: '#4e534f'}
-        ]
+        ],
+        bgType: 0
       }
     },
     created () {
@@ -66,6 +68,7 @@
         }
       })
       this.nightMode = storageGetter('night-mode') === 'true'
+      this.bgType = parseInt(storageGetter('background-type')) || 0
     }
   }
 </script>

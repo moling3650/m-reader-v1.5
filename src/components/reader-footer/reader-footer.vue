@@ -19,7 +19,7 @@
         <a class="font-small"></a>
       </div>
       <div class="font-bg">
-        <a class="bg-option" v-for="obj in bgStyleObjs" :style="obj"></a>
+        <a class="bg-option" v-for="obj in bgStyleObjs" :class="{'on': bgType === $index}" :style="obj" @click.prevent="changeBgType($index)"></a>
       </div>
     </div>
   </div>
@@ -31,6 +31,7 @@
     props: {
       barShow: Boolean,
       bgStyleObjs: Array,
+      bgType: Number,
       nightMode: Boolean
     },
     methods: {
@@ -40,6 +41,10 @@
       switchMode () {
         this.nightMode = !this.nightMode
         storageSetter('night-mode', this.nightMode)
+      },
+      changeBgType (type) {
+        this.bgType = type
+        storageSetter('background-type', this.bgType)
       }
     },
     events: {
