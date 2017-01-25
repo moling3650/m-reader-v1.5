@@ -2,7 +2,7 @@
   <div id="app">
     <reader-header :bar-show="barShow" :book="book"></reader-header>
     <reader-body :chapter-id="chapterId" @click="toggleBar"></reader-body>
-    <reader-footer :bar-show="barShow"></reader-footer>
+    <reader-footer :bar-show="barShow" :bg-style-objs="bgStyleObjs"></reader-footer>
   </div>
 </template>
 
@@ -37,7 +37,15 @@
       return {
         barShow: false,
         chapterId: '0',
-        book: {}
+        book: {},
+        bgStyleObjs: [
+          {background: '#f7eee5'},
+          {background: '#e9dfc7'},
+          {background: '#a4a4a4'},
+          {background: '#cdefce'},
+          {background: '#283548', color: '#7685a2'},
+          {background: '#0f1410', color: '#4e534f'}
+        ]
       }
     },
     created () {

@@ -9,7 +9,7 @@
       <div class="bottom">
         <a class="item toc"></a>
         <a class="item font" :class="{'on': fontBarShow}" @click.prevent="toggleFontBar"></a>
-        <a class="item day"></a>
+        <a class="item night"></a>
         <a class="item download"></a>
       </div>
     </div>
@@ -19,7 +19,7 @@
         <a class="font-small"></a>
       </div>
       <div class="font-bg">
-        <a class="bg-option"></a>
+        <a class="bg-option" v-for="obj in bgStyleObjs" :style="obj"></a>
       </div>
     </div>
   </div>
@@ -28,7 +28,8 @@
 <script type="text/ecmascript-6">
   export default {
     props: {
-      barShow: Boolean
+      barShow: Boolean,
+      bgStyleObjs: Array
     },
     methods: {
       toggleFontBar () {
@@ -85,41 +86,39 @@
         &:before
           content ''
           position absolute
-          top 20px
+          bottom 33px
         &:after
           display inline-block
           margin-top 45px
       .toc
         &:before
-          margin-left 3px
+          margin-left 1px
           bg-img('toc.png', 18px, 14px)
         &:after
           content '目录'
       .font
         &:before
-          margin-left 2px
           bg-img('font.png', 20px, 13px)
         &:after
           content '字体'
         &.on:before
-          margin-top -1px
-          margin-left 1px
+          margin-bottom -1px
+          margin-left -1px
           bg-img('font_on.png', 22px, 15px)
       .day
         &:before
-          margin-left 3px
+          margin-left 1px
           bg-img('day.png', 18px, 18px)
         &:after
           content '白天'
       .night
         &:before
-          margin-left 4px
+          margin-left 2px
           bg-img('night.png', 16px, 16px)
         &:after
           content '夜间'
       .download
         &:before
-          margin-left 1px
           bg-img('download.png', 22px, 16px)
         &:after
           content '下载'
@@ -166,7 +165,7 @@
     width 30px
     height 30px
     border-radius 50%
-    background #f7eee5
+    margin-right 10px
     vertical-align middle
     &.on:after
       content ''
