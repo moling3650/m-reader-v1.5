@@ -14,11 +14,10 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import { getApiData } from 'common/js/utils.js'
-
   export default {
     props: {
-      barShow: Boolean
+      barShow: Boolean,
+      book: Object
     },
     methods: {
       togglePopupShow () {
@@ -32,14 +31,8 @@
     },
     data () {
       return {
-        popupShow: false,
-        book: {}
+        popupShow: false
       }
-    },
-    ready () {
-      getApiData('/api/info', data => {
-        this.book = data.items[0]
-      })
     }
   }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <reader-header :bar-show="barShow"></reader-header>
+    <reader-header :bar-show="barShow" :book="book"></reader-header>
     <reader-body :chapter-id="chapterId" @click="toggleBar"></reader-body>
     <reader-footer :bar-show="barShow"></reader-footer>
   </div>
@@ -10,7 +10,8 @@
   import ReaderHeader from 'components/reader-header/reader-header'
   import ReaderBody from 'components/reader-body/reader-body'
   import ReaderFooter from 'components/reader-footer/reader-footer'
-  import { getApiData } from 'common/js/utils.js'
+
+  const OK = 0
 
   export default {
     components: {
@@ -36,22 +37,17 @@
       return {
         barShow: false,
         chapterId: '0',
-        chapter: {},
-        bookInfo: {},
-        bookDetail: {}
+        book: {}
       }
     },
     created () {
       if (window.location.search.match(/chapter_id=(\d+)/)) {
         this.chapterId = RegExp.$1
       }
-
-      getApiData('/api/info', info => {
-        this.bookInfo = info
-      })
-
-      getApiData('/api/detail', detail => {
-        this.bookDetail = detail
+      this.$http.get('/api/detail').then(data => {
+        if (data.body.result === OK) {
+          this.book = data.body.item
+        }
       })
     }
   }

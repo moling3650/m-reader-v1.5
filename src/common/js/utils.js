@@ -42,12 +42,3 @@ exports.getChapterContent = (url, callback, timeout) => {
     }
   })
 }
-
-exports.getApiData = (url, callback) => {
-  Vue.http.get(url).then(res => {
-    if (res.body.result === OK) {
-      callback(res.body)
-    }
-  })
-}
-
