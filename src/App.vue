@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <reader-header :bar-show="barShow" :book="book"></reader-header>
-    <reader-body :chapter-id="chapterId" @click="toggleBar"></reader-body>
-    <reader-footer :bar-show="barShow" :bg-style-objs="bgStyleObjs"></reader-footer>
+    <reader-body :style="bgStyleObj" :chapter-id="chapterId" @click="toggleBar"></reader-body>
+    <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode"></reader-footer>
   </div>
 </template>
 
@@ -10,6 +10,7 @@
   import ReaderHeader from 'components/reader-header/reader-header'
   import ReaderBody from 'components/reader-body/reader-body'
   import ReaderFooter from 'components/reader-footer/reader-footer'
+  import { storageGetter } from 'common/js/utils.js'
 
   const OK = 0
 
@@ -18,6 +19,12 @@
       ReaderHeader,
       ReaderBody,
       ReaderFooter
+    },
+    computed: {
+      bgStyleObj () {
+        let nightModeStyle = this.bgStyleObjs[5]
+        return this.nightMode ? nightModeStyle : this.bgStyleObjs[0]
+      }
     },
     methods: {
       toggleBar () {
@@ -36,6 +43,7 @@
     data () {
       return {
         barShow: false,
+        nightMode: true,
         chapterId: '0',
         book: {},
         bgStyleObjs: [
@@ -57,6 +65,7 @@
           this.book = data.body.item
         }
       })
+      this.nightMode = storageGetter('night-mode') === 'true'
     }
   }
 </script>

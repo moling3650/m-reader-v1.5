@@ -47,7 +47,6 @@
     margin 0 auto
     overflow auto
     color #333
-    background #cdefce
   .chapters
     margin 0 15px
   .chapter

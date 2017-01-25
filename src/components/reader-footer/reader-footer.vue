@@ -9,7 +9,7 @@
       <div class="bottom">
         <a class="item toc"></a>
         <a class="item font" :class="{'on': fontBarShow}" @click.prevent="toggleFontBar"></a>
-        <a class="item night"></a>
+        <a class="item" :class="nightMode ? 'day' : 'night'" @click.prevent="switchMode"></a>
         <a class="item download"></a>
       </div>
     </div>
@@ -26,14 +26,20 @@
 </template>
 
 <script type="text/ecmascript-6">
+  import { storageSetter } from 'common/js/utils.js'
   export default {
     props: {
       barShow: Boolean,
-      bgStyleObjs: Array
+      bgStyleObjs: Array,
+      nightMode: Boolean
     },
     methods: {
       toggleFontBar () {
         this.fontBarShow = !this.fontBarShow
+      },
+      switchMode () {
+        this.nightMode = !this.nightMode
+        storageSetter('night-mode', this.nightMode)
       }
     },
     events: {
