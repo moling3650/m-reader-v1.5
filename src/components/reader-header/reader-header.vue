@@ -1,19 +1,20 @@
 <template>
   <div class="reader-header" v-show="barShow">
-    <a class="back"></a>
+    <a class="back" @click="goBack"></a>
     <a class="more" @click.prevent="togglePopupShow"></a>
     <div class="popup" v-show="popupShow">
-      <div class="book">
+      <div class="book" @click="goBack">
         <img class="cover" :src="book.cover" :alt="book.title" />
         <h1 class="title">{{ book.title }}</h1>
         <p class="author">{{ book.authors }}</p>
       </div>
-      <div class="auto-pay"></div>
+      <div class="auto-pay" :class="{'on': isAutoBuy}" @click="toggleAutoBuy"></div>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
+  import { storageGetter, storageSetter } from 'common/js/utils.js'
   export default {
     props: {
       barShow: Boolean,
@@ -22,6 +23,13 @@
     methods: {
       togglePopupShow () {
         this.popupShow = !this.popupShow
+      },
+      toggleAutoBuy () {
+        this.isAutoBuy = !this.isAutoBuy
+        storageSetter('auto_buy', this.isAutoBuy)
+      },
+      goBack () {
+        window.alert('回到书籍详情页面')
       }
     },
     events: {
@@ -31,8 +39,12 @@
     },
     data () {
       return {
-        popupShow: false
+        popupShow: false,
+        isAutoBuy: false
       }
+    },
+    ready () {
+      this.isAutoBuy = storageGetter('auto_buy') === 'true'
     }
   }
 </script>
@@ -54,7 +66,7 @@
 
   .back
     display inline-block
-    padding 25px
+    padding 25px 50px
     cursor pointer
     &:before
       content ''
@@ -102,6 +114,7 @@
       min-height 74px
       padding 12px 10px
       overflow hidden
+      cursor pointer
       .cover
         position absolute
         width 54px
@@ -126,7 +139,7 @@
         position absolute
         margin 16px 10px
         bg-img('check.png', 18px, 18px)
-      &.check-on:before
+      &.on:before
         bg-img('check_on.png', 18px, 18px)
       &:after
         content '自动购买下一章'

@@ -2,6 +2,7 @@
 const Vue = require('vue')
 const Base64 = require('js-base64').Base64
 const OK = 0
+const PREFIX = 'm-reader'
 
 function getContent (jsonpUrl, timeout = 3000) {
   return new Promise((resolve, reject) => {
@@ -42,3 +43,7 @@ exports.getChapterContent = (url, callback, timeout) => {
     }
   })
 }
+
+exports.storageGetter = key => window.localStorage.getItem(PREFIX + key)
+
+exports.storageSetter = (key, value) => window.localStorage.setItem(PREFIX + key, value)
