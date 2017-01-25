@@ -13,6 +13,15 @@
         <a class="item download"></a>
       </div>
     </div>
+    <div class="font-bar">
+      <div class="font-size">
+        <a class="font-large"></a>
+        <a class="font-small"></a>
+      </div>
+      <div class="font-bg">
+        <a class="bg-option"></a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -24,7 +33,7 @@
   @import '../../common/stylus/minin'
 
   .reader-footer
-    position absolute
+    position fixed
     right 0
     bottom 0
     left 0
@@ -95,4 +104,58 @@
           bg-img('download.png', 22px, 16px)
         &:after
           content '下载'
+
+  .font-bar
+    position fixed
+    right 0
+    bottom 70px
+    left 0
+    z-index 2
+    height 135px
+    color #fff
+    background rgba(0, 0, 0, .9)
+
+  .font-size, .font-bg
+    margin-top 15px
+    padding 5px 10px
+    &:before
+      margin-right 20px
+      margin-left 10px
+      font-size 14px
+      line-height 21px
+  .font-size:before
+    content '字号'
+  .font-bg:before
+    content '背景'
+
+  .font-large, .font-small
+    display inline-block
+    padding 5px 40px
+    border 1px solid #8c8c8c
+    border-radius 16px
+    margin 0 5px
+    font-size 13px
+    line-height 16px
+  .font-large:before
+    content '大'
+  .font-small:before
+    content '小'
+
+  .bg-option
+    position relative
+    display inline-block
+    width 30px
+    height 30px
+    border-radius 50%
+    background #f7eee5
+    vertical-align middle
+    &.on:after
+      content ''
+      position absolute
+      top -2px
+      left -2px
+      border 1px solid #ff7800
+      border-radius 50%
+      width 32px
+      height 32px
 </style>
