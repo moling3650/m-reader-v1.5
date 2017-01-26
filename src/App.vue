@@ -2,7 +2,7 @@
   <div id="app">
     <reader-header :bar-show="barShow" :book="book"></reader-header>
     <reader-body :style="bgStyleObj" :chapter-id="chapterId" :font-size="fontSize" @click="toggleBar"></reader-body>
-    <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode" :bg-type.sync="bgType" :font-size.sync="fontSize"></reader-footer>
+    <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode" :bg-type.sync="bgType" :font-size.sync="fontSize" :chapter-id.sync="chapterId" :latest-id="book.latest_id"></reader-footer>
   </div>
 </template>
 
@@ -31,21 +31,27 @@
       toggleBar () {
         this.barShow = !this.barShow
         if (!this.barShow) {
-          this.$broadcast('hide-bar')
+          this.$broadcast('hide_bar')
         }
+      },
+      hideBar () {
+        this.$broadcast('hide_bar')
+        this.barShow = false
       }
     },
     events: {
-      'reader-body-scroll' () {
-        this.$broadcast('hide-bar')
-        this.barShow = false
+      'reader_body_scroll' () {
+        this.hideBar()
+      },
+      'change_chapter' () {
+        this.$broadcast('reader_body_refresh')
       }
     },
     data () {
       return {
         barShow: false,
         nightMode: false,
-        chapterId: '0',
+        chapterId: 0,
         book: {},
         bgStyleObjs: [
           {background: '#f7eee5'},
@@ -61,7 +67,7 @@
     },
     created () {
       if (window.location.search.match(/chapter_id=(\d+)/)) {
-        this.chapterId = RegExp.$1
+        this.chapterId = parseInt(RegExp.$1)
       }
       this.$http.get('/api/detail').then(data => {
         if (data.body.result === OK) {

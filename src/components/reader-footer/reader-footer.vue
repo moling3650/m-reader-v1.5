@@ -2,9 +2,9 @@
   <div class="reader-footer" v-show="barShow">
     <div class="footer-bar">
       <div class="top">
-        <a class="item prev-chapter"></a>
-        <a class="item current-chapter"></a>
-        <a class="item next-chapter"></a>
+        <a class="item prev-chapter" @click.prevent="getPrevChapter"></a>
+        <a class="item current-chapter" v-text="chapterId + '/' + latestId"></a>
+        <a class="item next-chapter" @click.prevent="getNextChapter"></a>
       </div>
       <div class="bottom">
         <a class="item toc"></a>
@@ -33,7 +33,9 @@
       bgStyleObjs: Array,
       bgType: Number,
       fontSize: Number,
-      nightMode: Boolean
+      nightMode: Boolean,
+      chapterId: Number,
+      latestId: Number
     },
     methods: {
       toggleFontBar () {
@@ -58,10 +60,22 @@
           this.fontSize--
           storageSetter('font-size', this.fontSize)
         }
+      },
+      getPrevChapter () {
+        if (this.chapterId > 0) {
+          --this.chapterId
+          this.$dispatch('change_chapter')
+        }
+      },
+      getNextChapter () {
+        if (this.chapterId < this.latestId) {
+          ++this.chapterId
+          this.$dispatch('change_chapter')
+        }
       }
     },
     events: {
-      'hide-bar' () {
+      'hide_bar' () {
         this.fontBarShow = false
       }
     },

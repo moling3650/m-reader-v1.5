@@ -1,5 +1,5 @@
 <template>
-  <div class="reader-body" @scroll="bodyScroll">
+  <div class="reader-body" @scroll="bodyScroll" v-el:reader-body>
     <ul class="chapters" :style="{fontSize: fontSize + 'px'}">
       <li class="chapter" v-for="chapter in chapters" track-by="$index">
         <h1 class="title">{{ chapter.t }}</h1>
@@ -14,12 +14,22 @@
 
   export default {
     props: {
-      chapterId: String,
+      chapterId: Number,
       fontSize: Number
     },
     methods: {
       bodyScroll () {
-        this.$dispatch('reader-body-scroll')
+        this.$dispatch('reader_body_scroll')
+      }
+    },
+    events: {
+      'reader_body_refresh' () {
+        this.$nextTick(() => {
+          getChapterContent(`/api/link?chapter_id=${this.chapterId}`, chapter => {
+            this.chapters.splice(0, this.chapters.length, chapter)
+            this.$els.readerBody.scrollTop = 0
+          })
+        })
       }
     },
     data () {
@@ -29,7 +39,7 @@
     },
     ready () {
       getChapterContent(`/api/link?chapter_id=${this.chapterId}`, chapter => {
-        this.chapters.push(chapter)
+        this.chapters.splice(0, this.chapters.length, chapter)
       })
     }
   }

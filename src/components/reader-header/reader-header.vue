@@ -33,7 +33,7 @@
       }
     },
     events: {
-      'hide-bar' () {
+      'hide_bar' () {
         this.popupShow = false
       }
     },
