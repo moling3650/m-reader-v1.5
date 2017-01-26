@@ -1,5 +1,5 @@
 # m-reader-v2
-小说阅读器 web app
+用vue.js 1.02x 编写的小说阅读器 web app
 
 ## 项目流程
 
