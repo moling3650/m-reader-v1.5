@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <reader-header :bar-show="barShow" :book="book"></reader-header>
-    <reader-body :style="bgStyleObj" :chapter-id="chapterId" :font-size="fontSize" @click="toggleBar"></reader-body>
+    <reader-body :style="bgStyleObj" :chapter-id.sync="chapterId" :font-size="fontSize" @click="toggleBar"></reader-body>
     <reader-footer :bar-show="barShow" :bg-style-objs.once="bgStyleObjs" :night-mode.sync="nightMode" :bg-type.sync="bgType" :font-size.sync="fontSize" :chapter-id.sync="chapterId" :latest-id="book.latest_id"></reader-footer>
   </div>
 </template>

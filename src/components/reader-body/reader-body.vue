@@ -20,6 +20,14 @@
     methods: {
       bodyScroll () {
         this.$dispatch('reader_body_scroll')
+        let rb = this.$els.readerBody
+        let isBottom = rb.scrollTop + rb.clientHeight === rb.scrollHeight
+
+        if (isBottom) {
+          getChapterContent(`/api/link?chapter_id=${++this.chapterId}`, chapter => {
+            this.chapters.push(chapter)
+          })
+        }
       }
     },
     events: {
