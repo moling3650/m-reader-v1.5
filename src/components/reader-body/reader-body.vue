@@ -19,14 +19,20 @@
     },
     methods: {
       bodyScroll () {
-        this.$dispatch('reader_body_scroll')
-        let rb = this.$els.readerBody
-        let isBottom = rb.scrollTop + rb.clientHeight === rb.scrollHeight
+        if (this.timer === null) {
+          this.timer = setTimeout(() => {
+            clearTimeout(this.timer)
+            this.timer = null
+            this.$dispatch('reader_body_scroll')
+            let rb = this.$els.readerBody
+            let isBottom = (rb.scrollHeight - rb.scrollTop - rb.clientHeight) < (rb.clientHeight * 0.5)
 
-        if (isBottom) {
-          getChapterContent(`/api/link?chapter_id=${++this.chapterId}`, chapter => {
-            this.chapters.push(chapter)
-          })
+            if (isBottom) {
+              getChapterContent(`/api/link?chapter_id=${++this.chapterId}`, chapter => {
+                this.chapters.push(chapter)
+              })
+            }
+          }, 500)
         }
       }
     },
@@ -42,7 +48,8 @@
     },
     data () {
       return {
-        chapters: []
+        chapters: [],
+        timer: null
       }
     },
     ready () {
